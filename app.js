@@ -19,6 +19,7 @@ function sumAndMultiply(one,two,three){
   // console.log('"' + ' the numbers ' + one + ' and ' + two + ' and ' + three + ' have a product of ' + output[1] + '"');
   return output;}
 
+// Wow look at this great function.
 var total = 0;
 function sumArray(input){
   for (var i = 0; i < input.length; i++) {
