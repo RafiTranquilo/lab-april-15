@@ -15,6 +15,15 @@ function sumAndMultiply(one,two,three){
   var output = [];
   output.push(sum(sum(one,two),three));
   output.push(multiply(multiply(one,two),three));
-  console.log('"' + one + 'and' + two + ' and ' + three + ' sum to ' + output[0] + '"');
-  console.log('"' + ' the numbers ' + one + ' and ' + two + ' and ' + three + ' have a product of ' + output[1] + '"');
+  // console.log('"' + one + 'and' + two + ' and ' + three + ' sum to ' + output[0] + '"');
+  // console.log('"' + ' the numbers ' + one + ' and ' + two + ' and ' + three + ' have a product of ' + output[1] + '"');
   return output;}
+
+var total = 0;
+function sumArray(input){
+  for (var i = 0; i < input.length; i++) {
+    total = total + input[i];
+  }
+  console.table(input);
+  console.log(input + ' was passed in as an array of numbers, and ' + total + ' is their sum.');
+};
